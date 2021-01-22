@@ -19,7 +19,7 @@ class Data<T> {
 
     public Data() {
 
-        list = new ArrayList<>();
+        list = new ArrayList<T>();
     }
 
     public void add(T obj) {
